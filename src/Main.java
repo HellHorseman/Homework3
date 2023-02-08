@@ -97,9 +97,9 @@ public class Main {
     int totalMilk = milk * 2;
     int totalIceCream = iceCream * 2;
     int totalEgg = egg * 4;
-    int totlalWightInGramms = totalBanana + totalMilk + totalIceCream + totalEgg;
-    float totalWhightInKilo = totlalWightInGramms / 1000f;
-        System.out.println("Вес спортивного завтрака " + totlalWightInGramms + " грамм, или "
+    int totlalWhightInGramms = totalBanana + totalMilk + totalIceCream + totalEgg;
+    float totalWhightInKilo = totlalWhightInGramms / 1000f;
+        System.out.println("Вес спортивного завтрака " + totlalWhightInGramms + " грамм, или "
         + totalWhightInKilo + " киллограмм");
     }
     public static void task7 () {
