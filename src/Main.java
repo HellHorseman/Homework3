@@ -48,7 +48,8 @@ public class Main {
     byte studentsLudmilaPavlovna = 23;
     byte studentsAnnaSergeevna = 27;
     byte studentsEkaterinaAndreevna = 30;
-    byte allStudents = (byte) (studentsLudmilaPavlovna + studentsAnnaSergeevna + studentsEkaterinaAndreevna);
+    byte allStudents = (byte) (studentsLudmilaPavlovna + studentsAnnaSergeevna +
+            studentsEkaterinaAndreevna);
     short paper = 480;
     byte sheetOnStudent = (byte) (paper / allStudents);
         System.out.println("На каждого ученика рассчитано " + sheetOnStudent + " листов бумаги");
@@ -60,21 +61,33 @@ public class Main {
         int bottlePerMin = bottle / time;
         byte timeLap1 = 20;
         int perTwentyMin = bottlePerMin * timeLap1;
-        System.out.println("За " + timeLap1 + " минут машина произвела " + perTwentyMin + " штук бутылок");
+        System.out.println("За " + timeLap1 + " минут машина произвела " + perTwentyMin +
+                " штук бутылок");
         short day = 24 * 60;
         int perDay = day * bottlePerMin;
         System.out.println("За " + day + " минут машина произвела " + perDay + " штук бутылок");
         int threeDays = day * 3;
         int perThreeDays = threeDays * bottlePerMin;
-        System.out.println("За " + threeDays + " минут машина произвела " + perThreeDays + " штук бутылок");
+        System.out.println("За " + threeDays + " минут машина произвела " + perThreeDays +
+                " штук бутылок");
         int month = day * 30;
         int perMonth = month * bottlePerMin;
-        System.out.println("За " + month + " минут машина произвела " + perMonth + " штук бутылок");
+        System.out.println("За " + month + " минут машина произвела " + perMonth +
+                " штук бутылок");
     }
     public static void task5 () {
         System.out.println("Задача 5");
-
-    }public static void task6 () {
+        byte totalPaint = 120;
+        byte whitePaintPerClass = 2;
+        byte brownPaintPerClass = 4;
+        byte paintPerClass = (byte) (whitePaintPerClass + brownPaintPerClass);
+        byte totalClasses = (byte) (totalPaint / paintPerClass);
+        byte totalWhitePaint = (byte) (whitePaintPerClass * totalClasses);
+        byte totalBrownPaint = (byte) (brownPaintPerClass * totalClasses);
+        System.out.println("В школе, где " + totalClasses + " классов, нужно " + totalWhitePaint +
+                " банок белой краски и " + totalBrownPaint + " банок коричневой краски");
+    }
+    public static void task6 () {
         System.out.println("Задача 6");
 
     }public static void task7 () {
