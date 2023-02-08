@@ -51,7 +51,7 @@ public class Main {
     byte allStudents = (byte) (studentsLudmilaPavlovna + studentsAnnaSergeevna +
             studentsEkaterinaAndreevna);
     short paper = 480;
-    byte sheetOnStudent = (byte) (paper / allStudents);
+    int sheetOnStudent =  paper / allStudents;
         System.out.println("На каждого ученика рассчитано " + sheetOnStudent + " листов бумаги");
     }
     public static void task4 () {
