@@ -55,8 +55,23 @@ public class Main {
     }
     public static void task4 () {
         System.out.println("Задача 4");
-
-    }public static void task5 () {
+        byte bottle = 16;
+        byte time = 2;
+        int bottlePerMin = bottle / time;
+        byte timeLap1 = 20;
+        int perTwentyMin = bottlePerMin * timeLap1;
+        System.out.println("За " + timeLap1 + " минут машина произвела " + perTwentyMin + " штук бутылок");
+        short day = 24 * 60;
+        int perDay = day * bottlePerMin;
+        System.out.println("За " + day + " минут машина произвела " + perDay + " штук бутылок");
+        int threeDays = day * 3;
+        int perThreeDays = threeDays * bottlePerMin;
+        System.out.println("За " + threeDays + " минут машина произвела " + perThreeDays + " штук бутылок");
+        int month = day * 30;
+        int perMonth = month * bottlePerMin;
+        System.out.println("За " + month + " минут машина произвела " + perMonth + " штук бутылок");
+    }
+    public static void task5 () {
         System.out.println("Задача 5");
 
     }public static void task6 () {
