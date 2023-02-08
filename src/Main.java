@@ -25,9 +25,23 @@ public class Main {
         System.out.println("Ускорение свободного падения " + g);
         System.out.println("Число пи " + p);
     }
+
     public static void task2 () {
         System.out.println("Задача 2");
-
+    float a = 27.12f;
+    long b = 987678965549L;
+    float c = 2.786f;
+    short d = 569;
+    short e = -159;
+    short f = 27897;
+    byte g = 67;
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(d);
+        System.out.println(e);
+        System.out.println(f);
+        System.out.println(g);
     }
     public static void task3 () {
         System.out.println("Задача 3");
