@@ -104,8 +104,21 @@ public class Main {
     }
     public static void task7 () {
         System.out.println("Задача 7");
-
-    }public static void task8 () {
+    byte totalFlow = 7;
+    float minFlow = 250 / 1000f;
+    float maxFlow = 500 / 1000f;
+    float daysMinFlow = totalFlow / minFlow;
+    float daysMaxFlow = totalFlow / maxFlow;
+        System.out.println("При сбросе " + minFlow + " кг веса в день, необходимо "
+                + daysMinFlow + " дней");
+        System.out.println("При сбросе " + maxFlow + " кг веса в день, необходимо "
+                + daysMaxFlow + " дней");
+    float midFlow = (minFlow + maxFlow) / 2;
+    float daysMidFlow = totalFlow / midFlow;
+        System.out.println("При сбросе " + midFlow + " кг веса в день, необходимо "
+                + daysMidFlow + " дней");
+    }
+    public static void task8 () {
         System.out.println("Задача 8");
 
     }
