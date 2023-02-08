@@ -45,8 +45,15 @@ public class Main {
     }
     public static void task3 () {
         System.out.println("Задача 3");
-
-    }public static void task4 () {
+    byte studentsLudmilaPavlovna = 23;
+    byte studentsAnnaSergeevna = 27;
+    byte studentsEkaterinaAndreevna = 30;
+    byte allStudents = (byte) (studentsLudmilaPavlovna + studentsAnnaSergeevna + studentsEkaterinaAndreevna);
+    short paper = 480;
+    byte sheetOnStudent = (byte) (paper / allStudents);
+        System.out.println("На каждого ученика рассчитано " + sheetOnStudent + " листов бумаги");
+    }
+    public static void task4 () {
         System.out.println("Задача 4");
 
     }public static void task5 () {
