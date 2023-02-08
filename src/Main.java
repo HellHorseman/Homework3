@@ -84,13 +84,25 @@ public class Main {
         byte totalClasses = (byte) (totalPaint / paintPerClass);
         byte totalWhitePaint = (byte) (whitePaintPerClass * totalClasses);
         byte totalBrownPaint = (byte) (brownPaintPerClass * totalClasses);
-        System.out.println("В школе, где " + totalClasses + " классов, нужно " + totalWhitePaint +
-                " банок белой краски и " + totalBrownPaint + " банок коричневой краски");
+        System.out.println("В школе, где " + totalClasses + " классов, нужно " + totalWhitePaint
+                + " банок белой краски и " + totalBrownPaint + " банок коричневой краски");
     }
     public static void task6 () {
         System.out.println("Задача 6");
-
-    }public static void task7 () {
+    byte banana = 80;
+    byte milk = 105;
+    byte iceCream = 100;
+    byte egg = 70;
+    int totalBanana = banana * 5;
+    int totalMilk = milk * 2;
+    int totalIceCream = iceCream * 2;
+    int totalEgg = egg * 4;
+    int totlalWightInGramms = totalBanana + totalMilk + totalIceCream + totalEgg;
+    float totalWhightInKilo = totlalWightInGramms / 1000f;
+        System.out.println("Вес спортивного завтрака " + totlalWightInGramms + " грамм, или "
+        + totalWhightInKilo + " киллограмм");
+    }
+    public static void task7 () {
         System.out.println("Задача 7");
 
     }public static void task8 () {
